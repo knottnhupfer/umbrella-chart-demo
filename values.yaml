@@ -1,0 +1,16 @@
+demo-service:
+  resources:
+    requests:
+      cpu: 150m
+      memory: 256Mi
+    limits:
+      cpu: 500m
+      memory: 512Mi
+  service:
+    JAVA_OPTS: "-Xms256m -Xmx396m"
+  applicationYaml:
+    spring:
+      datasource:
+        url: "jdbc:postgresql://127.0.0.1:5432/demo-service"
+        username: "demo-service"
+        password: "SECRET"

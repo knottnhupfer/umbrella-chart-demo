@@ -1,0 +1,4 @@
+apiVersion: v1
+description: Umbrella Helm Chart
+name: git-ops
+version: 1.0.0-latest

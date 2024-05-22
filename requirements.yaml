@@ -1,0 +1,4 @@
+dependencies:
+  - name: demo-service
+    version: latest
+    repository: oci://URL-to-HELM-REPO/helm
